@@ -93,7 +93,7 @@ class FCViewController: UIViewController, UITableViewDataSource, UITableViewDele
     if (self.remoteConfig.configSettings.isDeveloperModeEnabled) {
         expirationDuration = 0
     }
-    //
+    
     // cacheExpirationSeconds is set to cacheExpiration here, indicating that any previously
     // fetched and cached config would be considered expired because it would have been fetched
     // more than cacheExpiration seconds ago. Thus the next fetch would go to the server unless
